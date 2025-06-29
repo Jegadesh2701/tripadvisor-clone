@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripadvisor</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <!-- Header left -->
+            <div class="header__left">
+                <img src="./Images/logo.png">
+                <h1>Tripadvisor</h1>
+            </div>
+
+            <!--Header middle -->
+            <div class="header__middle">
+
+                <a class="header__middle__link" href="">Discover</a>
+                <a class="header__middle__link" href="">Trips</a>
+                <a class="header__middle__link" href="">Review</a>
+                <a class="header__middle__link" href="">Forms</a>
+
+            </div>
+            <!--Header right -->
+            <div class="header__right">
+                <button class="header__right__langbtn">
+                    <div>
+                        <h4>🌐</h4>
+                    </div>
+                    <div>|</div>
+                    <div style="margin-top: 2px;">INR</div>
+                </button>
+                <button class="header__right__sgnbtn">Sign in</button>
+            </div>
+
+        </div>
+        <!-- Stream block -->
+        <!-- Stream toggles block -->
+        <div class="stream__blc">
+            <!-- Hidden Inputs First -->
+            <input type="radio" name="stream2" id="searchall" checked hidden>
+            <input type="radio" name="stream2" id="hotels" checked hidden>
+            <input type="radio" name="stream2" id="things" checked hidden>
+            <input type="radio" name="stream2" id="restaurants" checked hidden>
+            <input type="radio" name="stream2" id="flights" checked hidden>
+            <input type="radio" name="stream2" id="holiday" checked hidden>
+
+            <!-- Stream content + toggle but tons in visual order -->
+            <div class="stream__visual">
+                <div class="stream">
+                    <h1 class="where">Where to?</h1>
+                    <h1 class="stay">Stay somewhere great</h1>
+                    <h1 class="fun"> Do something fun</h1>
+                    <h1 class="eat">Find places to eat</h1>
+                    <h1 class="flight">Find the best flight</h1>
+                    <h1 class="rent">Where to?</h1>
+
+                </div>
+
+                <div class="stream2">
+                    <label for="searchall" class="stream2_toggle">
+                        <i class="fas fa-home"></i>
+                        <span>Search all</span>
+                        <div class="underline"></div>
+                    </label>
+
+                    <label for="hotels" class="stream2_toggle">
+                        <i class="fas fa-bed"></i>
+                        <span>Hotels</span>
+                        <div class="underline"></div>
+                    </label>
+
+                    <label for="things" class="stream2_toggle">
+                        <i class="fas fa-camera"></i>
+                        <span>Things to do</span>
+                        <div class="underline"></div>
+                    </label>
+
+                    <label for="restaurants" class="stream2_toggle">
+                        <i class="fas fa-utensils"></i>
+                        <span>Restaurants</span>
+                        <div class="underline"></div>
+                    </label>
+
+                    <label for="flights" class="stream2_toggle">
+                        <i class="fas fa-plane"></i>
+                        <span>Flights</span>
+                        <div class="underline"></div>
+                    </label>
+
+                    <label for="holiday" class="stream2_toggle">
+                        <i class="fas fa-mountain"></i>
+                        <span>Holiday Homes</span>
+                        <div class="underline"></div>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="searchbar">
+            <div class="searchbar__fcs">
+                <div class="searchbar__container">
+                    <i class="fa-solid fa-magnifying-glass"
+                        style="color: black; padding-top: 5px; padding-bottom: 5px;"></i>
+
+                    <input class="searchbar__input" type="text" placeholder="Places to go,things to do,hotels...." />
+                    <button class="searchbar__btn">Search</button>
+                </div>
+                <div class="searchbar-_line"></div>
+
+                
+            </div>
+        </div>
+
+        <div class="bookbox">
+            <div class="bookbox__img">
+                <img class="bookbox__img" src="./Images/tour.jpg" alt="Tour.jpeg">
+
+
+            </div>
+            <div class="bookbox__info">
+                <h1>Book the best part of your trip</h1>
+                <h5>Browse our selection of the best hotels</h5>
+                <button>Find things to do</button>
+            </div>
+        </div>
+
+        <div class="intrest">
+            <h2>Find things to do by interest</h2>
+            <h5>Whatever you're into, we've got it</h5>
+        </div>
+
+        <div class="intrest__imgs">
+
+            <div class="intrest__imgs__div">
+                <img class="intrest__imgs__img" src="./Images/1.jpg" alt="adventure.jpg">
+                <h2>Adventure</h2>
+
+            </div>
+            <div class="intrest__imgs__div">
+                <img class="intrest__imgs__img" src="./Images/2.jpg" alt="scenic.jpg">
+                <h2>Scenic</h2>
+
+            </div>
+
+            <div class="intrest__imgs__div">
+                <img class="intrest__imgs__img" src="./Images/3.jpg" alt="water.jpg">
+                <h2>Water</h2>
+
+            </div>
+
+            <div class="intrest__imgs__div">
+                <img class="intrest__imgs__img" src="./Images/4.jpg" alt="culture.jpg">
+                <h2>Culture</h2>
+
+            </div>
+        </div>
+
+        
+
+        <div class="explore__title">
+            <h2>Most-dos in amazing places</h2>
+            <h5>Experiences we think you'll love</h5>
+        </div>
+
+        <div class="explore__contain">
+
+            <div class="explore__contain__div">
+                <img class="explore__contain__img" src="./Images/Culturaltour.jpg" alt="Tout.jpg">
+                <div><i class="fa-solid fa-heart" style="color: white;"></i></div>
+                <h2>Day Raid To Explore the cultural And Scenic Places</h2>
+                <p>4.5 ⭐⭐⭐⭐ (1435)</p>
+                <h4>Starting from ₹2723 per adult</h4>
+            </div>
+
+            <div class="explore__contain__div">
+                <img class="explore__contain__img" src="./Images/cruise.jpg" alt="cruise  .jpg">
+                <div><i class="fa-solid fa-heart" style="color: white;"></i></div>
+                <h2>Exciting Week for holiday around the Ocean</h2>
+                <p>4.9 ⭐⭐⭐⭐⭐ (2562)</p>
+                <h4>Starting from ₹1100 per adult</h4>
+            </div>
+
+            <div class="explore__contain__div">
+                <img class="explore__contain__img" src="./Images/Mountain Trekking.jpg" alt="Mountain trekking.jpg">
+                <div><i class="fa-solid fa-heart" style="color: white;"></i></div>
+                <h2>Experience the best adventure over the Mountains</h2>
+                <p>4.9 ⭐⭐⭐⭐⭐ (3357)</p>
+                <h4>Starting from ₹4999 per adult</h4>
+            </div>
+
+            <div class="explore__contain__div">
+                <img class="explore__contain__img" src="./Images/Night.jpg" alt="Night.jpg">
+                <div><i class="fa-solid fa-heart" style="color: white;"></i></div>
+                <h2>With every Speciallity Worth and colorful Nightout</h2>
+                <p>4.5 ⭐⭐⭐⭐ (5327)</p>
+                <h4>Starting from ₹4935 per adult</h4>
+            </div>
+
+        </div>
+
+
+
+            <div class="inspire__title">
+                <h2>Inspiration to get you going</h2>
+            </div>
+
+            <div class="inspire__contain">
+
+                <div class="inspire__contain__div">
+                    <img class="inspire__contain__img" src="./Images/Night sky.jpg" alt="Night.jpg">
+                    <div><i class="fa-solid fa-heart" style="color: white;"></i></div>
+                    <h4>Night around the world With Beautiful view of the Stars.</h4>
+                </div>
+
+                <div class="inspire__contain__div">
+                    <img class="inspire__contain__img" src="./Images/travel.jpg" alt="Travel.jpg">
+                    <div><i class="fa-solid fa-heart" style="color: white;"></i></div>
+                    <h4>Packup the Loads and Move around the World.</h4>
+                </div>
+
+                <div class="inspire__contain__div">
+                    <img class="inspire__contain__img" src="./Images/food.jpg" alt="food.jpg">
+                    <div><i class="fa-solid fa-heart" style="color: white;"></i></div>
+                    <h4>World of Foods., Infinite Cuisine and Exotics Foods.</h4>
+                </div>
+
+                <div class="inspire__contain__div">
+                    <img class="inspire__contain__img" src="./Images/adventure.jpg" alt="Adventure.jpg">
+                    <div><i class="fa-solid fa-heart" style="color: white;"></i></div>
+                    <h4>EVery Day makes you Thrill.,, Get Adventured.</h4>
+
+                </div>
+
+
+            </div>
+
+            <div class="iconic__title">
+                <h2>Iconic places you need to see</h2>
+            </div>
+
+            <div class="iconic__contain">
+
+                <div class="iconic__contain__div">
+                    <img class="iconic__contain__img" src="./Images/a.jpg" alt="rome.jpg">
+                    <h2>Mill Valley, US</h2>
+                </div>
+
+                <div class="iconic__contain__div">
+                    <img class="iconic__contain__img" src="./Images/b.jpg" alt="paris (1).jpg">
+                    <h2>Norway</h2>
+                </div>
+
+                <div class="iconic__contain__div">
+                    <img class="iconic__contain__img" src="./Images/c.jpg" alt="lasvegas.jpg">
+                    <h2>Giza, Egypt</h2>
+                </div>
+
+                <div class="iconic__contain__div">
+                    <img class="iconic__contain__img" src="./Images/d.jpg" alt="reykajavik.jpg">
+                    <h2>Paris, France</h2>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="footer-section">
+                    <div class="footer-section1">
+                        <h4>About Tripadvisor</h4>
+                        <a href="#">About Us</a>
+                        <a href="#">Privacy and Policies</a>
+                        <a href="#">Trust & Safety</a>
+                        <a href="#">Press</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Contact us</a>
+                        <a href="#">Tripadvisor Technology Blog</a>
+                    </div>
+
+
+
+                    <div class="footer-section2">
+                        <h4>Do Business With Us</h4>
+                        <a href="">Business Advantages</a>
+                        <a href="">Owners & DMO/CVB</a>
+                        <a href="">Sponsored Placements</a>
+                        <a href="">Access Our Content API</a>
+                        <a href="">Android App</a>
+                    </div>
+
+                    <div class="footer-section3">
+                        <h4>Tripadvisor Sites</h4>
+                        <p>Book tours and attraction tickets on <a href="#">Viator</a></p>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <div class="footer-left">
+                        <img src="./Images/logo.png" alt="Tripadvisor Logo" class="footer-logo" />
+                        <p>© 2025 Tripadvisor LLC rights reserved.</p>
+
+                        <div class="footer-links">
+                            <a href="">Terms of Use</a>
+                            <a href="">Privacy and Cookies Statement</a>
+                            <a href="">Cookie Consent</a>
+                            <a href="">Site Map</a>
+                            <a href="">Contact Us</a>
+                        </div>
+                        <p class="footer-note">Tripadvisor LLC makes no guarantees for availability of prices advertised
+                            on
+                            our sites and applications. Listed prices may require a stay of a particular length or have
+                            blackout dates, qualifications or other applicable restrictions. Tripadvisor LLC is not
+                            responsible for any content on external web sites that are not owned or operated by
+                            Tripadvisor
+                            .
+                            Tripadvisor LLC is not a booking agent or tour operator. When you book with one of our
+                            partners,
+                            please be sure to check their site for a full disclosure of all applicable fees.
+                        </p>
+                    </div>
+
+                    <div class="footer-socials">
+                        <a href="https://www.facebook.com/Tripadvisor/"><i class="fa-brands fa-facebook"
+                                style="color: black;"></i></a>
+                        <a href="https://www.facebook.com/Tripadvisor/"><i class="fa-brands fa-twitter"
+                                style="color: black;"></i></a>
+                        <a href="https://www.instagram.com/Tripadvisor/"><i class="fa-brands fa-instagram"
+                                style="color: black;"></i></a>
+                        <a href="https://www.youtube.com/Tripadvisor/"><i class="fa-brands fa-youtube"
+                                style="color: black;"></i></a>
+                    </div>
+                </div>
+        </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
