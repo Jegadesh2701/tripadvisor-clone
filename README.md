@@ -1,4 +1,4 @@
-# tripadvisor-clone🧭 Tripadvisor Clone – Responsive Travel Website UI
+🧭 Tripadvisor Clone – Responsive Travel Website UI
 This is a fully responsive Tripadvisor Clone built using only HTML and CSS, designed to replicate the user interface of the official Tripadvisor website. The project focuses on layout design, structure, and styling to provide a visually appealing and intuitive travel exploration experience.
 
 🌟 Features
@@ -38,8 +38,8 @@ Google Fonts
 
 
 
-📌 How to Use
-Clone the repository:
+📌 How to view
+https://jegadesh2701.github.io/tripadvisor-clone/
 
 💡 Inspiration
 This clone was created to practice front-end skills and to understand how complex website layouts are structured using basic web technologies.
